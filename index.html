@@ -2,6 +2,9 @@
  <html lang="en">
  <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
    <title>Obamaposters2016</title>
    <meta name="nostalgia" content ="Obama posters">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
@@ -19,16 +22,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Own a Piece of History</a>
+      <a href="" class="navbar-brand">Own a Piece of History</a>
     </div>
      <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="about">About</a></li>
-        <li><a href="key">Key</a></li>
-        <li><a href="testimonials">Testimonials</a></li>
-        <li><a href="faq">FAQ</a></li>
-        <li><a href="contact">Contact us</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -40,9 +43,49 @@
     <p>There are just a few posters remaining. You must hurry!</p>
   </div>
 </div>
-<div class="container" id="poster">
-  <center><img src= "images/Obamaposterlong.jpeg" style="width: 600; height: 800" ></center> 
+<div class="page-header" id="gallery">
+  <h2>Gallery.<small> Check out the Awesome Gallery</small></h2>
 </div>
+  <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+ 
+      <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+      <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+       <img src="images/Obamaposterlong.jpeg" style="width: 600; height: 800" alt="Own your own collectable limited dition 18X24 poster">
+       <div class="carousel-caption">
+        <h3>Poster heading<h3>
+          <p>This is the poster you need</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/posterkey" alt="Find papers from all of the world">
+        <div class="carousel-caption">
+        <h3>Poster heading<h3>
+          <p>This is the poster you need</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/WhileSuppliesLast.jpeg">
+        <div class="carousel-caption">
+        <h3>Poster heading<h3>
+          <p>This is the poster you need</p>
+        </div>
+      </div><!--End Carousel inner -->
+      <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div><!-- End Carousel -->
+  </section>
+</div>
+
+
 <img src = "images/WhileSuppliesLast.jpg" align="right">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
@@ -71,6 +114,7 @@
       <div class="testimonials">
         <h2>Testimonials<small> Check out nice things people have had to say about things that are not these posters</small></h2>
       </div>
+
       <div class="row">
         <div class="col-lg-4">
         <blockquote>
@@ -99,9 +143,12 @@
       <h2>About<small> Here's our story</small></h2>
         <p> Marc and Janine created this poster in 2008 after Barack Obama's historic win. Many people wanted to save newspapers but found storing them hard. Together, the combed the world to find front pages of papers from all over the day. </p>
     </div>
-</div>
   </section>
+</div>
+  
   <hr>
   </div><!--End container-->
 </body>
+<script src="http://code.jqery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </html>
